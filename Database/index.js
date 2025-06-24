@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
 })
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://movies-frontend-five-chi.vercel.app/',
   credentials: true
 }));
 
